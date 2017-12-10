@@ -54,6 +54,6 @@ public class TableAdapter extends ArrayAdapter<Table> {
     }
 
     private void doDetails(Table table) {
-        Toast.makeText(this.context,table.getTableName()+" "+table.getTableStatus(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.context,table.getTableName()+"is"+table.getTableStatus(),Toast.LENGTH_SHORT).show();
     }
 }
