@@ -1,4 +1,4 @@
-package com.linhphan.phannhatlinhcoffeemanager.model;
+package com.linhphan.phannhatlinhcoffeemanager.models;
 
 import java.io.Serializable;
 
@@ -7,9 +7,10 @@ import java.io.Serializable;
  */
 
 public class Table implements Serializable{
-    private int code;
-    private String tableName;
-    private String tableStatus;
+    private int code;//thường thì đặt là id
+    private String tableName;//sửa thành name
+    private String tableStatus;//sửa thành status
+    //2 thuộc tính name và status nó thuộc table rồi thì chỉ cần đặt là name, status là được rồi
 
     public Table() {
     }

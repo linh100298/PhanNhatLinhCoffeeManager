@@ -1,9 +1,7 @@
-package com.linhphan.phannhatlinhcoffeemanager.adapter;
+package com.linhphan.phannhatlinhcoffeemanager.adapters;
 
 import android.app.Activity;
-import android.content.Context;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.linhphan.phannhatlinhcoffeemanager.R;
-import com.linhphan.phannhatlinhcoffeemanager.model.Table;
+import com.linhphan.phannhatlinhcoffeemanager.models.Table;
 
 import java.util.List;
 
@@ -41,6 +39,7 @@ public class TableAdapter extends ArrayAdapter<Table> {
         TextView txtTable=row.findViewById(R.id.items_txt_table);
         ImageButton btnPay=row.findViewById(R.id.items_btn_pay);
         ImageButton btnMenu=row.findViewById(R.id.items_btn_menu);
+        //hai cái button này chưa dùng, thì khai báo để làm gì? Khi nào cần rồi hẵng khai báo nhé
         ImageButton btnDetails=row.findViewById(R.id.items_btn_details);
         final Table table=this.objects.get(position);
         txtTable.setText(table.getTableName());

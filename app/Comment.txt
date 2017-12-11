@@ -1,0 +1,23 @@
+Nhận xét về thiết kế:
+1. Đứng về góc độ người dùng, anh không biết cái dấu sao và cái ở giữa là cái gì cả,
+    có thể em dùng cho chức năng nào đó sau này, nhưng cái icon phải thể hiện rõ ràng chức năng của nó/
+2. Phải click vào button infor thì mới xem được trạng thái bàn, giả sửa quán có 100 bàn, và còn trống 1 bàn,
+    khách vào thì e phải bấm từng cái một để tìm bàn nào trống để dẫn khách vào hay sao?
+    Phải thể hiện nổi bật ngay trong list bằng màu sắc, icon, từ ngữ thể hiện trạng thái, sao cho nhìn vào là thấy ngay.
+Nhật xét về phần java:
+1. tên package bắt buộc viết thường bằng tiếng anh ở số nhiều, anh đã sửa lại cho đúng.
+2. Một số điểm anh đã comment ở trong code
+Nhận xét về xml:
+1. đổi lại tên items.xml, nó là một item thuộc list table, không phải số nhiều nhé.
+    -> đổi lại thành item_list_table (e có thể đổi lại kiểu khác sao cho hợp lý là được).
+2. ListView thường để margin 5dp nhé, không để sát cạnh của layout cha của nó
+Nhận xét về git:
+1. Chưa tạo được nhánh.
+2. Chưa có pull request.
+=========
+Yêu cầu mới:
+1. Chỉnh sửa lại thiết kế cho phù hợp.
+2. Xem comment của anh trong java rồi sửa code nhé.
+3. Thiết kế màn hình login. hiển thị khi khởi động app. nhập đúng username, pass thì mới mới đăng nhập được.
+Bâm đăng nhập thì gọi hàm login, sẽ khai báo sau. user,pass đặt cứng ở trong code. chú ý thiết kế cho hợp kí
+4. Các phần chỉnh sửa yêu cầu commit lên trong nhánh 20171211_HoanTQ_check, phần mới yêu cầu tạo nhánh mới. Sau khi hoàn thành thì tạo pull request rồi merge với master
